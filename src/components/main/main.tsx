@@ -4,6 +4,8 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import styles from './main.module.scss'
+import About from '../about/about.tsx'
+import Skills from '../skills/skills.tsx'
 
 
 const Main = () => {
@@ -19,6 +21,8 @@ const Main = () => {
                 <a href='#' target='_blank'><FaGithub /></a> 
                 <a href='#' target='_blank'><FaWhatsapp  /></a> 
             </div>
+            <About />
+            <Skills />
 
 
        </main>
