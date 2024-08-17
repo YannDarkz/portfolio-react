@@ -24,56 +24,56 @@ const Skills = () => {
             <h2>HABILIDADES</h2>
             <div className={styles.skill_list}>
                 <div className={styles.skill_item}>
-                    <IoLogoHtml5 size={30} />
-                    <p>HTML5</p>
+                    <IoLogoHtml5 className={styles.html} size={30} />
+                    <p className={styles.title}>HTML5</p>
                     <p>Mais recente atualização, que suporta tags, elementos e conteúdo multimídia. Assim como marcações de documento melhoradas e novas APIs.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    <IoLogoCss3 size={30} />
-                    <p>CSS3</p>
+                    <IoLogoCss3 className={styles.css} size={30} />
+                    <p className={styles.title}>CSS3</p>
                     <p>Com efeitos de transição, background e outros, pode-se criar estilos únicos para seus projetos web.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    <FaJsSquare size={30} />
-                    <p>JavaScript</p>
+                    <FaJsSquare className={styles.js} size={30} />
+                    <p className={styles.title}>JavaScript</p>
                     <p>Linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    <FaReact size={30} />
-                    <p>React</p>
+                    <FaReact className={styles.react} size={30} />
+                    <p className={styles.title}>React</p>
                     <p>Um framework JavaScript, usado para criar interfaces de usuário (UI) em aplicativos web. Usado por muitas empresas de tecnologia.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    <FaGithub size={30} />
-                    <p>GitHub</p>
+                    <FaGithub className={styles.github} size={30} />
+                    <p className={styles.title}>GitHub</p>
                     <p>Uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    <FaGitAlt size={30} />
-                    <p>Git</p>
+                    <FaGitAlt className={styles.git} size={30} />
+                    <p className={styles.title}>Git</p>
                     <p>Sistema de controle de versões distribuído, usado principalmente no desenvolvimento de software.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    <SiTypescript size={30} />
-                    <p>TypesScript</p>
+                    <SiTypescript className={styles.ts} size={30} />
+                    <p className={styles.title}>TypesScript</p>
                     <p>TypeScript é uma linguagem de programação fortemente tipada, construída sobre JavaScript, que adiciona tipos estáticos opcionais e recursos avançados para melhorar o desenvolvimento de aplicações robustas.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    <FaNodeJs size={30} />
-                    <p>NodeJS</p>
+                    <FaNodeJs className={styles.node} size={30} />
+                    <p className={styles.title}>NodeJS</p>
                     <p>Node.js: Plataforma de desenvolvimento de código aberto que permite a execução de JavaScript no lado do servidor. Com um vasto ecossistema de pacotes, Node.js facilita a criação de aplicações em tempo real, sendo amplamente usado em back-end de projetos modernos.</p>
                 </div>
 
                 <div className={styles.skill_item}>
-                    < FaAngular size={30} />
-                    <p>Angular</p>
+                    < FaAngular className={styles.angular} size={30} />
+                    <p className={styles.title}>Angular</p>
                     <p>Experiência com AngularJS, um framework JavaScript open-source do Google. Habilidade em criar interfaces dinâmicas e interativas, aproveitando componentes reutilizáveis e arquitetura MVC para desenvolver aplicações web escaláveis e bem organizadas.</p>
                 </div>
 
