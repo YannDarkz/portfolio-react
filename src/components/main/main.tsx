@@ -14,7 +14,7 @@ const Main = () => {
        <main className={styles.main_container}>
             <img src={imgPerfil} />     
             <h4>Olá, Seja Bem-Vinda(o)!</h4>   
-            <h1>Sou Yann Santos</h1>
+            <h1>Sou <strong> Yann Santos</strong></h1>
             <h3>Desenvolvedor Front-End</h3>
             <div className={styles.social}>
                 <a href='#' target='_blank'><FaLinkedinIn /></a> 
