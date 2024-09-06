@@ -1,5 +1,11 @@
-import styles from './project.module.scss'
-import logo_costs from '../../images/Costs_resized.png'
+// import React from 'react'
+
+import styles from './project.module.scss';
+import logo_costs from '../../images/Costs_resized.png';
+import logo_apiGit from '../../images/api_github.png';
+import logo_landingPage from '../../images/cleanLanding.png';
+import logo_huddle from '../../images/page_huddle.png';
+
 
 const Projects = () => {
 
@@ -10,32 +16,54 @@ const Projects = () => {
 
             <div className={styles.projects_list}>
                 <div className={`${styles.project} ${styles.first}}`}>
-                    <a href='https://julioresende77.github.io/portfolio_julioresende/'
+                    <a href='#'
                         target='_blank'>
                         <img src={logo_costs} alt="Logo-projeto" />
                         <p className={styles.coment}>Genciador de projetos "Costs"</p>
 
                         <div className={styles.hover_content}>
-                            <p>Esse e um projeto para gerenciar a criaçao de outros projetos.</p>
+                            <p className={styles.coment_1}>Esse é um projeto para gerenciar a criaçao de outros projetos.</p>
                             <p>🔗 Ver projeto online</p>
                         </div>
                     </a>
                 </div>
 
                 <div className={`${styles.project} ${styles.second}}`}>
-                    <a href='https://julioresende77.github.io/portfolio_julioresende/'
+                    <a href='https://yanndarkz.github.io/Busca-de-usuarioGitHub/'
                         target='_blank'>
-                        <img src={logo_costs} alt="Logo-projeto" />
-                        <p className={styles.coment}>Genciador de projetos "Costs2"</p>
+                        <img src={logo_apiGit} alt="Logo-projeto" />
+                        <p className={styles.coment}>Busca de Usuário GitHub</p>
 
                         <div className={styles.hover_content}>
-                            <p>Esse e um projeto para gerenciar a criaçao de outros projetos.</p>
+                            <p className={styles.coment_1}>Esse é um projeto para pesquisar informações de usuários do GitHub</p>
                             <p>🔗 Ver projeto online</p>
                         </div>
                     </a>
                 </div>
-                <div></div>
-                <div></div>
+                <div className={`${styles.project} ${styles.second}}`}>
+                    <a href='https://yanndarkz.github.io/Clean-Landing-Page/'
+                        target='_blank'>
+                        <img src={logo_landingPage} alt="Logo-projeto" />
+                        <p className={styles.coment}>Landing Page Download 'APP'</p>
+
+                        <div className={styles.hover_content}>
+                            <p className={styles.coment_1}>Esse é um projeto para usuários da apple interagir e baixar o conteúdo.</p>
+                            <p>🔗 Ver projeto online</p>
+                        </div>
+                    </a>
+                </div>
+                <div className={`${styles.project} ${styles.second}}`}>
+                    <a href='https://yanndarkz.github.io/Landing-page-Huddle/'
+                        target='_blank'>
+                        <img src={logo_huddle} alt="Logo-projeto" />
+                        <p className={styles.coment}>Landing Page Huddle</p>
+
+                        <div className={styles.hover_content}>
+                            <p className={styles.coment_1}>Esse é um projeto para apresentação de uma rede social do frontend mentor</p>
+                            <p>🔗 Ver projeto online</p>
+                        </div>
+                    </a>
+                </div>
             </div>
 
         </div>

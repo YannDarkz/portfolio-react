@@ -3,22 +3,23 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(60, 57, 57, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
 }
 
 * {
-
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html {
+  // color: rgba(60, 57, 57, 0.87);
+  color: rgba(131, 126, 126, 0.87);
   font-size: 62.5%;
 }
 
