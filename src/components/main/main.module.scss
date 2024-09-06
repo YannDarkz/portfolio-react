@@ -2,42 +2,92 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 3vh;
+    margin-top: 13vh;
 
     img {
+        width: 180px;
         border-radius: 50%;
         border: solid 2px #fff;
     }
 
     h4 {
-        margin-top: 1vh;
-        font-size: 1.8rem;
+        margin-top: 10vh;
+        font-size: 2.5rem;
         font-weight: 500;
     }
 
     h1 {
-        font-size: 3rem;
+        margin-top: 2vh;
+        font-size: 4rem;
+        text-align: center;
+        line-height: 1;
+
+        strong {
+            display: block;
+            font-size: 4.3rem;
+        }
     }
 
     h3 {
-        font-size: 1.5rem;
+        margin-top: 2vh;
+        font-size: 2.4rem;
+        letter-spacing: 1px;
+
+
+        @media (max-width: 350px) {
+            font-size: 2.2rem;
+
+        }
     }
 
     .social {
         margin-top: 2vh;
         display: flex;
-        gap: 2vw;
+        gap: 7vw;
 
         a {
-            font-size: 2.5rem;
+            font-size: 3.5rem;
+            // border: 1px solid pink;
+            border-radius: 50%;
+
+            outline: 1px transparent;
+            outline-color: rgba(131, 126, 126, 0.87);;
+            outline-offset: 0px;
+            transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+            &:hover {
+                // cursor: pointer;
+                outline: 1px solid;
+                outline-color: rgba(255, 255, 255, 0);
+                outline-offset: 15px;
+            }
+        }
+
+        .linkedin {
+
+            &:hover {
+                color: rgb(10, 102, 194);
+            }
+        }
+
+        .github {
+            &:hover {
+                color: rgb(36, 41, 46);
+            }
+        }
+
+        .wpp {
+            &:hover {
+                color: rgb(37, 211, 102);
+            }
         }
     }
 
     @media (min-width: 500px) {
 
-        img {
-            width: 25rem;
-        }
+        // img {
+        //     width: 25rem;
+        // }
 
         h3,
         h4 {

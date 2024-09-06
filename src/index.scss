@@ -3,22 +3,23 @@
   line-height: 1.5;
   font-weight: 400;
   color-scheme: light dark;
-  color: rgba(60, 57, 57, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  
 }
 
 * {
-
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 html {
+  // color: rgba(60, 57, 57, 0.87);
+  color: rgba(131, 126, 126, 0.87);
   font-size: 62.5%;
 }
 
@@ -40,7 +41,9 @@ body {
   min-height: 150vh;
   padding: 0 5vw;
   position: relative;
-  background-color: #0093E9;
+  // background-color: #0093E9;
+  background: url(./images/fundo-universo612x612.jpg); 
+  
   transition: background-color 1.3s ease-in-out;
 
   // Gradiente claro
@@ -58,12 +61,13 @@ body {
 
   &::before {
 
-    background-image: linear-gradient(180deg, #0093E9 0%, #57aae4 33%, #80d0c7 66%, #9eece3 100%);
+    // background-image: linear-gradient(180deg, #0093E9 0%, #57aae4 33%, #80d0c7 66%, #9eece3 100%);
     opacity: 1;
   }
 
   // Gradiente escuro
   &::after {
+    // color: beige;
     background-image: linear-gradient(180deg, #58585a 0%, #898181 17%, #9c9a97 39%, #cfc4c4 60%, #e2d8d8 80%, #ffffff 100%);
     opacity: 0;
   }

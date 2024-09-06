@@ -14,12 +14,12 @@ const Main = () => {
        <main className={styles.main_container}>
             <img src={imgPerfil} />     
             <h4>Olá, Seja Bem-Vinda(o)!</h4>   
-            <h1>Sou Yann Santos</h1>
+            <h1>Sou <strong> Yann Santos</strong></h1>
             <h3>Desenvolvedor Front-End</h3>
             <div className={styles.social}>
-                <a href='#' target='_blank'><FaLinkedinIn /></a> 
-                <a href='#' target='_blank'><FaGithub /></a> 
-                <a href='#' target='_blank'><FaWhatsapp  /></a> 
+                <a className={styles.linkedin} href='#' target='_blank'><FaLinkedinIn /></a> 
+                <a className={styles.github} href='#' target='_blank'><FaGithub /></a> 
+                <a className={styles.wpp} href='#' target='_blank'><FaWhatsapp  /></a> 
             </div>
             <About />
             <Skills />
