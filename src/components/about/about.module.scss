@@ -1,14 +1,13 @@
 .about_container {
-    margin-top: 1vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    text-align: justify;
 
     h2 {
         font-size: 4rem;
         letter-spacing: 1px;
-        margin: 5vh 0 3vh 0;
+        margin: 1vh 0 1vh 0;
     }
 
     h6 {
@@ -21,16 +20,16 @@
         margin-bottom: 2vh;
     }
 
-    a {
-        // background-color: white;
+    button {
+        
         // color: black;
         color: rgba(131, 126, 126, 0.87);
         border-radius: 1rem;
-        padding: 3px 7px;
+        padding: 8px 10px;
         font-size: 2rem;
         font-weight: 700;
         letter-spacing: 1px;
-        margin: 3vh 0 7vh 0;
+        margin: 2vh 0 3vh 0;
         
         position: relative;
         display: flex;

@@ -20,13 +20,13 @@
     .list_container {
         display: flex;
         gap: 2vw;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
 
-    @media (min-width: 440px) {
+    @media (min-width: 400px) {
         .list_container {
             gap: 3vw;
-            font-size: 1.25rem;
+            font-size: 1.5rem;
 
         }
     }

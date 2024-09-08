@@ -2,16 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 13vh;
+    margin-top: 8vh;
 
     img {
         width: 180px;
         border-radius: 50%;
-        border: solid 2px #fff;
+        border: solid 1px #fff;
     }
 
     h4 {
-        margin-top: 10vh;
+        margin-top: 5vh;
         font-size: 2.5rem;
         font-weight: 500;
     }
@@ -30,7 +30,7 @@
 
     h3 {
         margin-top: 2vh;
-        font-size: 2.4rem;
+        font-size: 2rem;
         letter-spacing: 1px;
 
 
@@ -51,7 +51,8 @@
             border-radius: 50%;
 
             outline: 1px transparent;
-            outline-color: rgba(131, 126, 126, 0.87);;
+            outline-color: rgba(131, 126, 126, 0.87);
+            ;
             outline-offset: 0px;
             transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 
@@ -70,15 +71,16 @@
             }
         }
 
-        .github {
-            &:hover {
-                color: rgb(36, 41, 46);
-            }
-        }
-
         .wpp {
             &:hover {
                 color: rgb(37, 211, 102);
+            }
+
+        }
+
+        .github {
+            &:hover {
+                color: rgb(36, 41, 46);
             }
         }
     }
