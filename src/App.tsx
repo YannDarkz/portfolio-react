@@ -2,8 +2,7 @@
 import Header from './components/header/header'
 import Main from './components/main/main'
 import Projects from './components/projects/projects'
-import ToggleDarkMode from './components/toggleMode/btnToggle'
-
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -11,9 +10,9 @@ function App() {
   return (
     <>
       <Header />
-      {/* <ToggleDarkMode /> */}
       <Main />
       <Projects />
+      <Footer />
     </>
   )
 }

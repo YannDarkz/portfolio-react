@@ -7,14 +7,15 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+
 }
 
 * {
-  
+
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html {
@@ -30,9 +31,22 @@ a {
   transition: 0.4s ease-in-out;
 
   &:hover {
-    color: #34388d;
+    color: #81bad4;
   }
 
+}
+
+button {
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  border: transparent;
+  transition: 0.4s ease-in-out;
+
+  &:hover {
+    color: #81bad4;
+    cursor: pointer;
+  }
 }
 
 
@@ -42,8 +56,8 @@ body {
   padding: 0 5vw;
   position: relative;
   // background-color: #0093E9;
-  background: url(./images/fundo-universo612x612.jpg); 
-  
+  background: url(./images/fundo-universo612x612.jpg);
+
   transition: background-color 1.3s ease-in-out;
 
   // Gradiente claro

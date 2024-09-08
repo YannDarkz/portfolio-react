@@ -10,6 +10,12 @@ import Skills from '../skills/skills.tsx'
 
 const Main = () => {
 
+    const generateWhatsAppLink = (phoneNumber: string, message: string): string => {
+        const encodeMessage = encodeURIComponent(message)
+        return `https://wa.me/${phoneNumber}?text=${encodeMessage}`
+
+    }
+
     return (
        <main className={styles.main_container}>
             <img src={imgPerfil} />     
@@ -17,9 +23,9 @@ const Main = () => {
             <h1>Sou <strong> Yann Santos</strong></h1>
             <h3>Desenvolvedor Front-End</h3>
             <div className={styles.social}>
-                <a className={styles.linkedin} href='#' target='_blank'><FaLinkedinIn /></a> 
-                <a className={styles.github} href='#' target='_blank'><FaGithub /></a> 
-                <a className={styles.wpp} href='#' target='_blank'><FaWhatsapp  /></a> 
+                <a className={styles.linkedin} href='https://www.linkedin.com/in/yanndarkzinnn/' target='_blank'><FaLinkedinIn /></a> 
+                <a className={styles.github} href='https://github.com/YannDarkz' target='_blank'><FaGithub /></a> 
+                <a className={styles.wpp} href={generateWhatsAppLink('5571987740164','Olá me interessei no seu trabalho!' )} target='_blank'><FaWhatsapp  /></a> 
             </div>
             <About />
             <Skills />
