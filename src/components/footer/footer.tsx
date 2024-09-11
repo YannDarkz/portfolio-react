@@ -9,7 +9,7 @@ import { MdOutlineConnectWithoutContact } from "react-icons/md";
 
 
 
-const Footer = () => {
+const Footer: React.FC = () => {
     const emailAddress = "iansantostph@gmail.com"; 
     const subject = "Interesse em seus serviços"; 
     const body = "Olá, estou interessado em seus serviços!"; 
