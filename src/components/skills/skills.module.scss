@@ -29,6 +29,11 @@
                 font-size: 8rem;
             }
 
+            @media (min-width: 1120px) {
+                width: 20%;
+
+            }
+
         }
 
         .title {
@@ -69,10 +74,12 @@
 
         .angular {
             color: #DD0031;
+            
         }
 
         .node {
             color: #339933;
+            
         }
 
         .ts {
