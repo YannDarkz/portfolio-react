@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap');
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Handjet", system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  // font-weight: 900;
   color-scheme: light dark;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -20,8 +22,9 @@
 
 html {
   // color: rgba(60, 57, 57, 0.87);
-  color: rgba(238, 231, 231, 0.87);
+  // color: rgba(238, 231, 231, 0.87);
   font-size: 62.5%;
+  letter-spacing: 1px;
 }
 
 a {

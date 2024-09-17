@@ -17,7 +17,7 @@
     }
 
     .projects_list {
-        
+
 
         .project {
             margin-bottom: 2vh;
@@ -72,24 +72,18 @@
             }
         }
 
-        @media (min-width: 1080px) {
+    }
+
+    @media (min-width: 1080px) {
+        .projects_list {
             display: flex;
             flex-flow: row wrap;
             gap: 3vw;
-    
-         }
-    }
-
-
-    @media (min-width: 1260px) {
-
-        .projects_list {
-
+            justify-content: center;
             .project {
                 width: 380px;
-
             }
         }
-
     }
+
 }
