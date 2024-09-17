@@ -6,7 +6,6 @@
 
 
     .logo {
-        // padding: 1.5em;
         width: 40px;
         will-change: filter;
         transition: filter 500ms;
@@ -21,6 +20,25 @@
         display: flex;
         gap: 2vw;
         font-size: 1.2rem;
+
+        li {
+
+            a {
+                // filter: drop-shadow(0 0x 10px #ffffff);
+                // transition: 1s ease-in-out;
+
+                &:hover {
+                    // color: #ffffff;
+                    // box-shadow: (0 3px 3px #ffffff);
+                    // padding-bottom: 1px;
+                    border-bottom: 1px solid #81bad4;
+                    
+                    
+
+                }
+            }
+        }
+
     }
 
     @media (min-width: 400px) {
@@ -40,9 +58,6 @@
     }
 
     @media (min-width: 768px) {
-
-       
-
         .list_container {
             gap: 4vw;
             font-size: 1.8rem;
