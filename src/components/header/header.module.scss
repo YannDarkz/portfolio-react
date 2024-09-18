@@ -24,17 +24,23 @@
         li {
 
             a {
-                // filter: drop-shadow(0 0x 10px #ffffff);
-                // transition: 1s ease-in-out;
+                position: relative;
+                padding-bottom: 2px;
 
-                &:hover {
-                    // color: #ffffff;
-                    // box-shadow: (0 3px 3px #ffffff);
-                    // padding-bottom: 1px;
-                    border-bottom: 1px solid #81bad4;
-                    
-                    
+                &::after {
+                    content: "";
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 2px;
+                    width: 0;
+                    background-color: #81bad4;
+                    transition: width 0.3s ease-in-out;
+                }
+               
 
+                &:hover::after {
+                    width: 100%;
                 }
             }
         }
