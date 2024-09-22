@@ -15,6 +15,7 @@
         margin-top: 5vh;
         font-size: 2.5rem;
         font-weight: 500;
+        
     }
 
     h1 {
@@ -22,10 +23,12 @@
         font-size: 4rem;
         text-align: center;
         line-height: 1;
+        
 
         strong {
             display: block;
             font-size: 4.3rem;
+            text-shadow: 1px 1px 2px rgb(71, 245, 236), 0 0 7px rgb(214, 233, 236), 0 2px 5px rgb(133, 163, 163);
         }
     }
 
@@ -33,6 +36,7 @@
         margin-top: 2vh;
         font-size: 2rem;
         letter-spacing: 1px;
+        
 
 
         @media (max-width: 350px) {
@@ -48,11 +52,10 @@
 
         a {
             font-size: 3.5rem;
-            // border: 1px solid pink;
             border-radius: 50%;
 
             outline: 1px transparent;
-            outline-color: rgba(131, 126, 126, 0.87);
+            outline-color: rgba(255, 242, 242, 0.87);
             ;
             outline-offset: 0px;
             transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -80,8 +83,9 @@
         }
 
         .github {
+            color: rgb(108, 111, 114);
             &:hover {
-                color: rgb(36, 41, 46);
+                color: #fff;
             }
         }
     }
