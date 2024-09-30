@@ -63,23 +63,23 @@
             stroke-width: 5;
             stroke-dasharray: 50, 260;
             stroke-dashoffset: 690;
-            stroke: #cccb98;
+            stroke: #ad8982;
             transition: all 2s cubic-bezier(0.22, 1, 0.25, 1);
         }
         
     }
 
-    // @media (min-width: 500px) {
+    @media (min-width: 1080px) {
         
-    //     h2 {
-    //         font-size: 3.7rem;
-    //     }
+        h2 {
+            font-size: 3.7rem;
+        }
     
-    //     h6, .coment {
-    //         font-size: 1.4rem;
-    //     }
+        h6, .coment {
+            font-size: 2.2rem;
+        }
     
 
-    // }
+    }
 
 }
