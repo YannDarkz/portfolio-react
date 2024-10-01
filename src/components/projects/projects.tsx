@@ -16,8 +16,9 @@ const Projects = () => {
 
             <div className={styles.projects_list}>
                 <div className={`${styles.project} ${styles.first}}`}>
-                    <a href='#'
-                        target='_blank'>
+                    <a href='https://cost-ashy.vercel.app/'
+                        target='_blank'
+                        rel="noopener noreferrer">
                         <img src={logo_costs} alt="Logo-projeto" />
                         <p className={styles.coment}>Genciador de projetos "Costs"</p>
 
@@ -30,7 +31,8 @@ const Projects = () => {
 
                 <div className={`${styles.project} ${styles.second}}`}>
                     <a href='https://yanndarkz.github.io/Busca-de-usuarioGitHub/'
-                        target='_blank'>
+                        target='_blank'
+                        rel="noopener noreferrer">
                         <img src={logo_apiGit} alt="Logo-projeto" />
                         <p className={styles.coment}>Busca de Usuário GitHub</p>
 
@@ -42,7 +44,8 @@ const Projects = () => {
                 </div>
                 <div className={`${styles.project} ${styles.second}}`}>
                     <a href='https://yanndarkz.github.io/Clean-Landing-Page/'
-                        target='_blank'>
+                        target='_blank'
+                        rel="noopener noreferrer">
                         <img src={logo_landingPage} alt="Logo-projeto" />
                         <p className={styles.coment}>Landing Page Download 'APP'</p>
 
@@ -54,7 +57,8 @@ const Projects = () => {
                 </div>
                 <div className={`${styles.project} ${styles.second}}`}>
                     <a href='https://yanndarkz.github.io/Landing-page-Huddle/'
-                        target='_blank'>
+                        target='_blank'
+                        rel="noopener noreferrer">
                         <img src={logo_huddle} alt="Logo-projeto" />
                         <p className={styles.coment}>Landing Page Huddle</p>
 
