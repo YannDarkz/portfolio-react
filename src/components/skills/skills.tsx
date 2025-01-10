@@ -1,6 +1,6 @@
 import styles from './skills.module.scss'
 
-import { IoLogoHtml5 } from "react-icons/io5";
+import { IoLogoHtml5, IoLogoSass } from "react-icons/io5";
 import { IoLogoCss3 } from "react-icons/io";
 
 import { FaJsSquare } from "react-icons/fa";
@@ -23,8 +23,8 @@ const Skills = () => {
                 </div>
 
                 <div className={styles.skill_item}>
-                    <IoLogoCss3 className={styles.css}  />
-                    <p className={styles.title}>CSS3</p>
+                    <IoLogoSass className={styles.css}  />
+                    <p className={styles.title}>Sass</p>
                     {/* <p>Com efeitos de transição, background e outros, pode-se criar estilos únicos para seus projetos web.</p> */}
                 </div>
 
