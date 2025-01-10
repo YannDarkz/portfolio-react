@@ -1,7 +1,6 @@
 import styles from './skills.module.scss'
 
 import { IoLogoHtml5, IoLogoSass } from "react-icons/io5";
-import { IoLogoCss3 } from "react-icons/io";
 
 import { FaJsSquare } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
